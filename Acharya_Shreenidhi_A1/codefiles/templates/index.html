@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book&Author</title>
+    <link
+      href="{{ url_for('static',filename = 'bootstrap.min.css') }}"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="background-color: #d5def5">
+    <div class="container mt-5 pt-5">
+      <div class="row">
+        <div class="col-12 col-sm-8 col-md-6 m-auto">
+          <h2 class="text-center fw-light">Enter Genre</h2>
+          <div class="card border-dark mb-3" style="background-color: #8594e4">
+            <div class="card-body">
+              <form action="/book" class="row">
+                <input
+                  class="col-8 col-sm-8 col-md-4 m-auto"
+                  type="text"
+                  name="genre"
+                  id="genre"
+                  class="form-control"
+                  placeholder="Enter your genre"
+                  style="
+                    border: none;
+                    outline: none;
+                    background: transparent;
+                    color: black !important;
+                    padding: 8px;
+                    border-radius: 6px;
+                  "
+                />
+                <button
+                  class="btn btn-outline-dark col-4 col-sm-8 col-md-4 m-auto"
+                  type="submit"
+                >
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

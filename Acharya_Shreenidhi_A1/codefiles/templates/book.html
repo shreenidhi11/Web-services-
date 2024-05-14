@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book</title>
+    <link
+      href="{{ url_for('static',filename='bootstrap.min.css') }}"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="background-color: #d5def5">
+    <div class="container mt-5 pt-5">
+      <div class="row">
+        <div class="col-12 col-sm-8 col-md-6 m-auto">
+          {% if not flag %}
+          <h2 class="text-center fw-light">Enter Genre</h2>
+          {% else %}
+          <h2 class="text-center fw-light">
+            Enter Genre: Displaying details for default genre
+          </h2>
+          {% endif %}
+          <div class="card border-dark mb-3" style="background-color: #8594e4">
+            <div class="card-body">
+              <!-- {% if not flag %}
+              <h3 class="text-center fw-light fs-5">Enter Genre</h3>
+              {% else %}
+              <h3 class="text-center fw-light fs-5">
+                Enter Genre: Displaying Default Author and Book details
+              </h3>
+              {% endif %} -->
+              <form action="/book" class="row">
+                <input
+                  class="col-8 col-sm-8 col-md-4 m-auto"
+                  type="text"
+                  name="genre"
+                  id="genre"
+                  class="form-control"
+                  placeholder="Enter your genre"
+                  style="
+                    border: none;
+                    outline: none;
+                    background: transparent;
+                    color: black !important;
+                    padding: 8px;
+                    border-radius: 6px;
+                  "
+                />
+                <button
+                  class="btn btn-outline-dark col-4 col-sm-8 col-md-4 m-auto"
+                  type="submit"
+                >
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-8 col-md-6 m-auto">
+            <div
+              class="card border-dark mb-3"
+              style="background-color: #8594e4"
+            >
+              <div class="card-body">
+                <h4 class="text-center fw-light fs-5">
+                  Author Name: {{ author_name }}
+                </h4>
+                <hr />
+                <h4 class="text-center fw-light fs-5">
+                  Title: {{ book_title }}
+                </h4>
+                <h4 class="text-center fw-light fs-5">
+                  {% if "dollar" in book_page_or_price %} Price: {{
+                  book_page_or_price }} {% else %} Page count: {{
+                  book_page_or_price }} {% endif %}
+                </h4>
+                <h4 class="text-center fw-light fs-5">
+                  Top Work: {{ top_work }}
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
