@@ -1,2 +1,2 @@
-# Web-services-
-Contains projects related to backend developments and big data
+# Web-services and Service-Oriented Computing
+Contains projects related to backend development and big data
