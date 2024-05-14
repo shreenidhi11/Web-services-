@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Submission</title>
+  </head>
+  <body>
+    <div>
+      <h2>This performs query 3 and 4</h2>
+      <!-- input form query 3 and 4 -->
+      <form id="myForm" action="/submitKeywords" method="post">
+        <div>
+          <label for="checkbox1">
+            <input type="radio" id="checkbox1" name="checkbox1" /> Mashup Search
+          </label>
+        </div>
+        <br />
+        <div>
+          <label for="checkbox2">
+            <input type="radio" id="checkbox2" name="checkbox2" /> API Search
+          </label>
+        </div>
+        <br />
+        <div>
+          <label for="inputField">Keywords</label>
+          <textarea
+            type="text"
+            name="tags"
+            id="inputField"
+            style="display: block"
+            placeholder="Enter comma separated values"
+          ></textarea>
+        </div>
+
+        <br />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <br />
+    <a
+      class="p-1 rounded text-center fw-light mt-3"
+      href="{{ url_for('index') }}"
+      >Back to Home Page</a
+    >
+    <!-- section for displaying the results -->
+    <div class="card-body">
+      {% if results|length == 0 %}
+      <h3 class="text-center fw-light">No search results yet!</h3>
+      {% else %}
+      <h3>API names :</h3>
+      <ol class="list-group list-group-flush">
+        {% for h in results %}
+        <li class="text-center fw-light">{{ h }}</li>
+        {% endfor %}
+      </ol>
+      {% endif %}
+    </div>
+  </body>
+</html>

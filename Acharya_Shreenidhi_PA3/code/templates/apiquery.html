@@ -1,0 +1,82 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div style="margin-top: 15px">
+      <h2>This performs query 1</h2>
+      <!-- input form query 1 -->
+      <form id="mashup-form" action="/resultsapi" method="post">
+        <label for="updated_year" id="updated_year">Updated Year</label>
+        <input
+          type="text"
+          name="updated_year"
+          id="input_updated_year"
+          style="display: block"
+        />
+
+        <label for="protocol" id="protocol">Protocol</label>
+        <input
+          type="text"
+          name="protocol"
+          id="input_protocol"
+          style="display: block"
+        />
+
+        <label for="Category" id="category">Category</label>
+        <input
+          type="text"
+          name="Category"
+          id="input_category"
+          style="display: block"
+        />
+
+        <div>
+          <label for="ratings" id="ratings">Ratings</label>
+          <input
+            type=""
+            name="ratings"
+            id="input_ratings"
+            style="display: block"
+          />
+          <label for="ratings" id="ratings">Comparision</label>
+          <select
+            id="dropdown3"
+            id="dropdown_ratings"
+            style="display: inline"
+            name="ratings_drop"
+          >
+            <option value="lower">Greater than</option>
+            <option value="higher">Lesser than</option>
+            <option value="equal">Equal to</option>
+          </select>
+        </div>
+
+        <label for="tags" id="tags">Tags</label>
+        <textarea
+          type=""
+          name="tags"
+          id="input_tags"
+          style="display: block"
+          placeholder="Enter comma separated values"
+        ></textarea>
+        <button style="margin-top: 15px" type="submit">Submit</button>
+      </form>
+    </div>
+    <!-- section for displaying the results -->
+    <div class="card-body">
+      {% if results|length == 0 %}
+      <h3 class="text-center fw-light">No search results yet!</h3>
+      {% else %}
+      <h3>API names :</h3>
+      <ol class="list-group list-group-flush">
+        {% for h in results %}
+        <li>{{ h }}</li>
+        {% endfor %}
+      </ol>
+      {% endif %}
+    </div>
+  </body>
+</html>

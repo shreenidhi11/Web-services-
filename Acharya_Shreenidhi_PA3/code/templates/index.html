@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Home page containing links for every query execution -->
+    <div style="text-align: center">
+      <h1>Welcome to assignment 3: Web Query System</h1>
+    </div>
+    <div style="text-align: center">
+      <ul style="list-style: none">
+        <li>
+          <a
+            class="p-1 rounded text-center fw-light mt-3"
+            href="{{ url_for('resultsapi') }}"
+            >API Search Query</a
+          >
+        </li>
+
+        <li>
+          <a
+            class="p-1 rounded text-center fw-light mt-3"
+            href="{{ url_for('resultsmashup') }}"
+            >Mashup Search Query</a
+          >
+        </li>
+
+        <li>
+          <a
+            class="p-1 rounded text-center fw-light mt-3"
+            href="{{ url_for('searchtype1') }}"
+            >Keywords based search</a
+          >
+        </li>
+        <li>
+          <a
+            class="p-1 rounded text-center fw-light mt-3"
+            href="{{ url_for('apinames') }}"
+            >Get top k API names</a
+          >
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
