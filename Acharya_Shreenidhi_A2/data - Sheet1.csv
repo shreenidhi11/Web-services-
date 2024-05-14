@@ -1,0 +1,53 @@
+Sequential_ID,Company,TypeName,Inches,ScreenResolution,Cpu,Memory,Gpu,OpSys,Price,Ram_In_GB,Weight_in_kg,CPU_GZ,CPU_Gen
+0,Apple,Ultrabook,13.3,IPS Panel Retina Display 2560x1600,Intel Core i5 2.3GHz,128GB SSD,Intel Iris Plus Graphics 640,macOS,71378.6832,8,1.37,2.3,i5
+1,Apple,Ultrabook,13.3,1440x900,Intel Core i5 1.8GHz,128GB Flash Storage,Intel HD Graphics 6000,macOS,47895.5232,8,1.34,1.8,i5
+2,HP,Notebook,15.6,Full HD 1920x1080,Intel Core i5 7200U 2.5GHz,256GB SSD,Intel HD Graphics 620,No OS,30636,8,1.86,2.5,i5
+3,Apple,Ultrabook,15.4,IPS Panel Retina Display 2880x1800,Intel Core i7 2.7GHz,512GB SSD,AMD Radeon Pro 455,macOS,135195.336,16,1.83,2.7,i7
+4,Apple,Ultrabook,13.3,IPS Panel Retina Display 2560x1600,Intel Core i5 3.1GHz,256GB SSD,Intel Iris Plus Graphics 650,macOS,96095.808,8,1.37,3.1,i5
+5,Acer,Notebook,15.6,1366x768,AMD A9-Series 9420 3GHz,500GB HDD,AMD Radeon R5,Windows 10,21312,4,2.1,3,9420
+6,Apple,Ultrabook,15.4,IPS Panel Retina Display 2880x1800,Intel Core i7 2.2GHz,256GB Flash Storage,Intel Iris Pro Graphics,Mac OS X,114017.6016,16,2.04,2.2,i7
+7,Apple,Ultrabook,13.3,1440x900,Intel Core i5 1.8GHz,256GB Flash Storage,Intel HD Graphics 6000,macOS,61735.536,8,1.34,1.8,i5
+8,Asus,Ultrabook,14,Full HD 1920x1080,Intel Core i7 8550U 1.8GHz,512GB SSD,Nvidia GeForce MX150,Windows 10,79653.6,16,1.3,1.8,i7
+9,Acer,Ultrabook,14,IPS Panel Full HD 1920x1080,Intel Core i5 8250U 1.6GHz,256GB SSD,Intel UHD Graphics 620,Windows 10,41025.6,8,1.6,1.6,i5
+10,HP,Notebook,15.6,1366x768,Intel Core i5 7200U 2.5GHz,500GB HDD,Intel HD Graphics 620,No OS,20986.992,4,1.86,2.5,i5
+11,HP,Notebook,15.6,Full HD 1920x1080,Intel Core i3 6006U 2GHz,500GB HDD,Intel HD Graphics 520,No OS,18381.0672,4,1.86,2,i3
+12,Apple,Ultrabook,15.4,IPS Panel Retina Display 2880x1800,Intel Core i7 2.8GHz,256GB SSD,AMD Radeon Pro 555,macOS,130001.6016,16,1.83,2.8,i7
+13,Dell,Notebook,15.6,Full HD 1920x1080,Intel Core i3 6006U 2GHz,256GB SSD,AMD Radeon R5 M430,Windows 10,26581.392,4,2.2,2,i3
+14,Apple,Ultrabook,12,IPS Panel Retina Display 2304x1440,Intel Core M m3 1.2GHz,256GB SSD,Intel HD Graphics 615,macOS,67260.672,8,0.92,1.2,M
+15,Apple,Ultrabook,13.3,IPS Panel Retina Display 2560x1600,Intel Core i5 2.3GHz,256GB SSD,Intel Iris Plus Graphics 640,macOS,80908.344,8,1.37,2.3,i5
+16,Dell,Notebook,15.6,Full HD 1920x1080,Intel Core i7 7500U 2.7GHz,256GB SSD,AMD Radeon R5 M430,Windows 10,39693.6,8,2.2,2.7,i7
+17,Apple,Ultrabook,15.4,IPS Panel Retina Display 2880x1800,Intel Core i7 2.9GHz,512GB SSD,AMD Radeon Pro 560,macOS,152274.24,16,1.83,2.9,i7
+18,Lenovo,Notebook,15.6,Full HD 1920x1080,Intel Core i3 7100U 2.4GHz,1TB HDD,Nvidia GeForce 940MX,No OS,26586.72,8,2.2,2.4,i3
+19,Dell,Ultrabook,13.3,IPS Panel Full HD / Touchscreen 1920x1080,Intel Core i5 8250U 1.6GHz,128GB SSD,Intel UHD Graphics 620,Windows 10,52161.12,8,1.22,1.6,i5
+20,Lenovo,Gaming,15.6,IPS Panel Full HD 1920x1080,Intel Core i5 7300HQ 2.5GHz,128GB SSD +  1TB HDD,Nvidia GeForce GTX 1050,Windows 10,53226.72,8,2.5,2.5,i5
+21,HP,Notebook,15.6,1366x768,AMD E-Series E2-9000e 1.5GHz,500GB HDD,AMD Radeon R2,No OS,13746.24,4,1.86,1.5,E2-9000e
+22,Dell,2 in 1 Convertible,13.3,Full HD / Touchscreen 1920x1080,Intel Core i5 8250U 1.6GHz,256GB SSD,Intel UHD Graphics 620,Windows 10,43636.32,8,1.62,1.6,i5
+23,HP,Ultrabook,15.6,Full HD 1920x1080,Intel Core i7 8550U 1.8GHz,256GB SSD,Intel HD Graphics 620,Windows 10,35111.52,8,1.91,1.8,i7
+24,Dell,Notebook,15.6,1366x768,Intel Core i3 6006U 2GHz,1TB HDD,Intel HD Graphics 520,Windows 10,22305.1392,4,2.3,2,i3
+25,Apple,Ultrabook,13.3,1440x900,Intel Core i5 1.6GHz,128GB Flash Storage,Intel HD Graphics 6000,Mac OS X,58554.72,8,1.35,1.6,i5
+26,Dell,Notebook,15.6,Full HD 1920x1080,Intel Core i5 8250U 1.6GHz,256GB SSD,AMD Radeon 530,Windows 10,42624,8,2.2,1.6,i5
+27,Dell,Ultrabook,15.6,Full HD 1920x1080,Intel Core i7 8650U 1.9GHz,256GB SSD +  256GB SSD,Intel UHD Graphics 620,Windows 10,69157.44,8,1.88,1.9,i7
+28,HP,Notebook,17.3,Full HD 1920x1080,Intel Core i5 8250U 1.6GHz,1TB HDD,Nvidia GeForce 930MX,Windows 10,47738.88,8,2.5,1.6,i5
+29,Chuwi,Notebook,15.6,Full HD 1920x1080,Intel Atom x5-Z8300 1.44GHz,64GB Flash Storage,Intel HD Graphics,Windows 10,13053.0672,4,1.89,1.44,x5-Z8300
+30,Asus,Notebook,14,1366x768,AMD E-Series E2-6110 1.5GHz,32GB Flash Storage,AMD Radeon R2,Windows 10,10602.72,2,1.65,1.5,E2-6110
+31,HP,Notebook,17.3,Full HD 1920x1080,AMD A6-Series 9220 2.5GHz,500GB HDD,AMD Radeon 530,Windows 10,23389.92,4,2.71,2.5,9220
+32,Dell,Ultrabook,13.3,Touchscreen / Quad HD+ 3200x1800,Intel Core i7 8550U 1.8GHz,512GB SSD,Intel UHD Graphics 620,Windows 10,99580.32,16,1.2,1.8,i7
+33,Apple,Ultrabook,13.3,1440x900,Intel Core i5 1.6GHz,256GB Flash Storage,Intel HD Graphics 6000,Mac OS X,53173.44,8,1.35,1.6,i5
+34,Lenovo,Notebook,14,1366x768,Intel Celeron Dual Core N3350 1.1GHz,64GB Flash Storage,Intel HD Graphics 500,Windows 10,13266.72,4,1.44,1.1,Dual
+35,Acer,Notebook,15.6,1366x768,Intel Core i3 7130U 2.7GHz,1TB HDD,Intel HD Graphics 620,Linux,19553.76,4,2.1,2.7,i3
+36,Dell,Notebook,17.3,IPS Panel Full HD 1920x1080,Intel Core i5 8250U 1.6GHz,128GB SSD +  1TB HDD,AMD Radeon 530,Windows 10,52161.12,8,2.8,1.6,i5
+37,HP,Notebook,15.6,1366x768,Intel Core i5 7200U 2.5GHz,1TB HDD,Intel HD Graphics 620,Windows 10,26037.4032,4,1.86,2.5,i5
+38,HP,Notebook,15.6,Full HD 1920x1080,Intel Core i5 8250U 1.6GHz,256GB SSD,Nvidia GeForce 930MX,Windows 10,46833.12,8,2.1,1.6,i5
+39,Asus,Notebook,15.6,Full HD 1920x1080,Intel Core i3 6006U 2GHz,1TB HDD,Intel HD Graphics 620,Linux,20725.92,4,2,2,i3
+40,Dell,Gaming,15.6,IPS Panel Full HD 1920x1080,Intel Core i7 7700HQ 2.8GHz,256GB SSD +  1TB HDD,Nvidia GeForce GTX 1060,Windows 10,79866.72,16,2.65,2.8,i7
+41,Asus,Notebook,15.6,1366x768,Intel Core i5 7200U 2.5GHz,1TB HDD,Nvidia GeForce 940MX,Linux,27864.9072,8,2.3,2.5,i5
+42,Acer,Notebook,15.6,IPS Panel Full HD 1920x1080,Intel Core i5 8250U 1.6GHz,256GB SSD,Intel UHD Graphics 620,Windows 10,36336.96,4,2.2,1.6,i5
+43,Dell,2 in 1 Convertible,17.3,Full HD / Touchscreen 1920x1080,Intel Core i5 8250U 1.6GHz,1TB HDD,Nvidia GeForce 150MX,Windows 10,53226.72,12,2.77,1.6,i5
+44,Apple,Ultrabook,13.3,IPS Panel Retina Display 2560x1600,Intel Core i5 2.0GHz,256GB SSD,Intel Iris Graphics 540,macOS,75604.32,8,1.37,2,i5
+45,Asus,Gaming,17.3,Full HD 1920x1080,AMD Ryzen 1700 3GHz,256GB SSD +  1TB HDD,AMD Radeon RX 580,Windows 10,69210.72,8,3.2,3,1700
+46,Dell,Notebook,15.6,Full HD 1920x1080,Intel Core i5 7200U 2.5GHz,256GB SSD,AMD Radeon R5 M430,Windows 10,34045.92,4,2.3,2.5,i5
+47,Asus,Notebook,17.3,1366x768,Intel Pentium Quad Core N4200 1.1GHz,1TB HDD,Nvidia GeForce 920MX,Windows 10,24828.48,4,2.8,1.1,Quad
+48,Acer,Notebook,15.6,IPS Panel Full HD 1920x1080,Intel Core i7 8550U 1.8GHz,256GB SSD,Nvidia GeForce MX150,Windows 10,44808.48,8,2.2,1.8,i7
+49,HP,Notebook,15.6,Full HD 1920x1080,AMD A6-Series 9220 2.5GHz,256GB SSD,AMD Radeon R4 Graphics,Windows 10,21231.5472,4,1.86,2.5,9220
+50,HP,Notebook,13.3,Full HD 1920x1080,Intel Core i7 8550U 1.8GHz,512GB SSD,Intel UHD Graphics 620,Windows 10,58767.84,8,1.49,1.8,i7
+51,Acer,Notebook,15.6,1366x768,Intel Core i3 7100U 2.4GHz,1TB HDD,Intel HD Graphics 620,Windows 10,20459.52,4,2.4,2.4,i3
